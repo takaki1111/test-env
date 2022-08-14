@@ -2,14 +2,8 @@
 import os
 from dotenv import load_dotenv
 import streamlit as st
-from streamlit_chat import message
 import requests
 
-
-st.set_page_config(
-    page_title="Streamlit Chat - Demo",
-    page_icon=":robot:"
-)
 
 
 st.header("チャットボット_高橋")
