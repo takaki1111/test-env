@@ -12,4 +12,5 @@ load_dotenv()
 
 # os.environを用いて環境変数を表示させます
 print(os.environ['API_KEY'])
-st.header(os.environ['API_KEY'])
+test="APIキーは"+os.environ['API_KEY']+"です。"
+st.header(test)
